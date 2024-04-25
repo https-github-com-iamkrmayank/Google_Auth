@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Google Auth Example</title>
+  <!-- Load Google Identity Services -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <!-- Load the JavaScript file for authentication -->
+  <script src="auth.js"></script>
+</head>
+<body>
+  <!-- Google Sign-In Button -->
+  <div id="g_id_onload"
+       data-client_id="41076435138-t2s6a012g1a9a5850eb44jaf8q7slqlp.apps.googleusercontent.com"
+       data-login_uri="/auth"
+       data-auto_prompt="false">
+  </div>
+  <div class="g_id_signin"
+       data-type="standard"
+       data-shape="rectangular"
+       data-theme="outline"
+       data-text="sign_in_with"
+       data-size="large">
+  </div>
+
+  <!-- Output for user info
